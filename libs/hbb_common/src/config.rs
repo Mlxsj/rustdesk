@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["gs.xsml.eu.org"];
-pub const PUBLIC_RS_PUB_KEY: &str = "wK0ZxTCbO1eXY2I0tonFdP9wyfH5VT8u+F0Z+Ka8WR8=";
+pub const PUBLIC_RS_PUB_KEY: &str = "sNEmbS7fehaTd1D6yZgirBFLKWG2t0VdvT7jclkUe5A=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
